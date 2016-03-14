@@ -8,3 +8,42 @@ span.nav {
 	color: #fff;
 	font-family: Roboto;
 }
+
+span.skill {
+	display: inline-block;
+}
+
+ul.skill-set {
+	list-style: none;
+}
+li table {
+	margin: 10px 0px;
+}
+
+.progress {
+	background-color: rgba(255, 255, 255, 0);
+	box-shadow: inset 0 1px 2px rgba(255, 248, 248, 0.1);
+}
+td.skill {
+	width: 100px;
+}
+
+td.progress {
+	width : 400px;
+}
+
+span.progress-bar {
+	height: 20px;
+	animation-name: progress;
+	animation-duration: 4s;
+	background-color: #fed136; /* For browsers that do not support gradients */
+	  /* For Safari 5.1 to 6.0 */
+	  background: -webkit-linear-gradient(to right, #fed136, #fed136, #fed136, rgba(253, 196, 0, 0));
+	  /* For Opera 11.1 to 12.0 */
+	  background: -o-linear-gradient(to right, #fed136, #fed136, #fed136, rgba(253, 196, 0, 0));
+	  /* For Fx 3.6 to 15 */
+	  background: -moz-linear-gradient(to right, #fed136, #fed136, #fed136, rgba(253, 196, 0, 0));
+	  /* Standard syntax */
+	  background: linear-gradient(to right, #fed136, #fed136, #fed136, rgba(253, 196, 0, 0));
+	/*background-color: #fed136;*/
+}

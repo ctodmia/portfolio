@@ -83,7 +83,7 @@
             <div class="intro-text">
                 <div class="intro-lead-in">Welcome to my workspace</div>
                 <div class="intro-heading"></div>
-                <a href="#experience" class="page-scroll btn btn-xl">Enter</a>
+                <a href="#experience" class="page-scroll btn btn-primary">Enter</a>
             </div>
         </div>
     </header>
@@ -101,8 +101,18 @@
                 <div class="col-md-6">
                     <h4 class="service-heading">Resume</h4>
                     <h5>UI/UX  |  Web Performance |  Product Development</h5>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                    <a href="resume.pdf" target="_blank" class="btn btn-xl">Download Full Resume</a>
+                    <p class="text-muted">
+                        I’ve spent the past few years creating elegant user interfaces for my clients, transforming static design files into interactive web applications. I work with HTML, CSS and javascript frameworks such as AngularJS and ReactJS to write well structured, modular code that interacts seamlessly with any backend or RESTful API. My most recent works include: 
+                        </br>
+                        <ul>
+                            <li><a href="#portfolioModal1" data-toggle="modal">Paired Up</a></li>
+                            <li><a href="#portfolioModal2" data-toggle="modal">Africa Express</a></li>
+                            <li><a href="#portfolioModal3" data-toggle="modal">TweetWatch</a></li>
+                        </ul>
+                        </br>
+                        Feel free to scroll down to view my full portfolio or download my resume using the link below.
+                    </p>
+                    <a href="resume.pdf" target="_blank" class="btn btn-primary">Download Full Resume</a>
                 </div>
                 <div class="col-md-6">
                     <h4 class="service-heading">Technical Skills</h4>
@@ -158,7 +168,7 @@
                         </li>
                     </ul>
                     </br>
-                    Other: Node/Express, MySQL, MongoDB, Socket.io, jQuery, D3, OAuth2, Firebase, Boostrap, Git, RESTful API, Test-Driven-Development, Cross-Browser Compatibility, 
+                    Other: Node/Express, MySQL, MongoDB, Socket.io, jQuery, D3, OAuth2, Firebase, Boostrap, Git, RESTful API, Test-Driven-Development, Cross-Browser Compatibility
                     </p>
                 </div>
             </div>
@@ -384,18 +394,24 @@
                             Learning how to code? Need a Partner? PairedUp is a way to connect with awesome TechMentors. If your looking to learn a particular programming language then PairedUp will match you with fellow coders who can pair program with you.
                             </p>
                             </br>
-                            <table class="container">
-                                <tr>
-                                    <td class="bullet"><strong>Tech Stack</strong></td>
-                                    <td>AngularJS, Node/Express, Socket.io, MongoDB, Passport.js, OAuth2</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td><strong>My Contributions</strong></td>
-                                    <td>I created a frontend architechture to interact with our RESTful API layer.</td>
-                                </tr>
 
-                            </table>
+                            <div class="row">
+                                <div class="col-md-2" text-align="left">
+                                    <strong text-align="left">Tech Stack</strong>
+                                </div>
+                                <div class="col-md-10">
+                                    AngularJS, Node/Express, Socket.io, MongoDB, Passport.js, OAuth2
+                                </div>
+                            </div>
+                            </br>
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <strong>Contributions</strong>
+                                </div>
+                                <div class="col-md-10">
+                                    I owned the private messaging feature by building a RESTful API layer with Node/Express and Websockets. Writing the frontend code in AngularJs allowed for a modular codebase, enabling new features to be added quickly. My greatest achievement with the application was creating a frontend architecture that increased the application’s performance, communicated well with the backend, and enhanced user experience.
+                                </div> 
+                            </div>
                             </br>
                             <a href="http://paired-up.herokuapp.com" target="_blank"><button class="btn btn-primary">Visit Website</button></a>
                             <a href="http://github.com/ctodmia/pairedup" target="_blank"><button class="btn btn-primary">View Github Code</button></a>
@@ -422,27 +438,32 @@
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
                             <h2>AfricaExpress</h2>
-                            <p class="item-intro text-muted">A pair-programming app that helps you connect and code with awesome tech mentors through Video Chat, a Live Code Editor, and Direct Messaging</p>
+                            <p class="item-intro text-muted">An open-source marketplace for independent merchants </p>
                             <img class="img-responsive img-centered" src="img/portfolio/shopview.jpg" alt="">
                             <img class="img-responsive img-centered" src="img/portfolio/sellview.jpg" alt="">
                             
                             <p>
                             <h5>Project Summary</h5>
-                            Learning how to code? Need a Partner? PairedUp is a way to connect with awesome TechMentors. If your looking to learn a particular programming language then PairedUp will match you with fellow coders who can pair program with you.
+                                Africa express is a digital marketplace for artist to sell handcrafted goods and for shoppers to discover one-of-a-kind pieces. The application includes a simple backend for sellers to upload product images and custom buy links (such as Paypal). Products are posted to the community marketplace for easy purchasing. 
                             </p>
                             </br>
-                            <table class="container">
-                                <tr>
-                                    <td class="bullet"><strong>Tech Stack</strong></td>
-                                    <td>AngularJS, Node/Express, Socket.io, MongoDB, Passport.js, OAuth2</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td><strong>My Contributions</strong></td>
-                                    <td>I created a frontend architechture to interact with our RESTful API layer.</td>
-                                </tr>
-
-                            </table>
+                            <div class="row">
+                                <div class="col-md-2" text-align="left">
+                                    <strong text-align="left">Tech Stack</strong>
+                                </div>
+                                <div class="col-md-10">
+                                    AngularJS, Node/Express, MongoDB
+                                </div>
+                            </div>
+                            </br>
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <strong>Contributions</strong>
+                                </div>
+                                <div class="col-md-10">
+                                    I created the original application in Ruby on Rails; however I later refactored the codebase to work with javascript MEAN stack technologies to improve performance by 30%. I created a responsive frontend with Angular Material design to improve user experience and implemented a RESTful API layer using Node and Express for client-side data retrieval.
+                                </div> 
+                            </div>
                             </br>
                             <a href="http://africaexpress.herokuapp.com" target="_blank"><button class="btn btn-primary">Visit Website</button></a>
                             <a href="http://github.com/ctodmia/africaexpress" target="_blank"><button class="btn btn-primary">View Github Code</button></a>
@@ -469,27 +490,32 @@
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
                             <h2>TweetWatch</h2>
-                            <p class="item-intro text-muted">A pair-programming app that helps you connect and code with awesome tech mentors through Video Chat, a Live Code Editor, and Direct Messaging</p>
+                            <p class="item-intro text-muted">Monitor your favorite Twitter profiles in real-time</p>
                             <img class="img-responsive img-centered" src="img/portfolio/dragshot.png" alt="">
                             <img class="img-responsive img-centered" src="img/portfolio/mobileview.png" alt="">
                             
                             <p>
                             <h5>Project Summary</h5>
-                            Learning how to code? Need a Partner? PairedUp is a way to connect with awesome TechMentors. If your looking to learn a particular programming language then PairedUp will match you with fellow coders who can pair program with you.
+                            TweetWatch is a simple dashboard that displays the most recent tweets from a given profile. Users have the ability to reorganize profile sections with the applications simple drag and drop feature. 
                             </p>
                             </br>
-                            <table class="container">
-                                <tr>
-                                    <td class="bullet"><strong>Tech Stack</strong></td>
-                                    <td>AngularJS, Node/Express, Socket.io, MongoDB, Passport.js, OAuth2</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td><strong>My Contributions</strong></td>
-                                    <td>I created a frontend architechture to interact with our RESTful API layer.</td>
-                                </tr>
-
-                            </table>
+                            <div class="row">
+                                <div class="col-md-2" text-align="left">
+                                    <strong text-align="left">Tech Stack</strong>
+                                </div>
+                                <div class="col-md-10">
+                                    ReactJS, BackboneJS, Node/Express, Javascript
+                                </div>
+                            </div>
+                            </br>
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <strong>Contributions</strong>
+                                </div>
+                                <div class="col-md-10">
+                                    I leveraged Twitter's API to collect the latest tweets from each profile. I used BackboneJS to organize to manage incoming tweet collections and ReactJS to create view components. I had the most fun implementing the the applications drag and drop feature. 
+                                </div> 
+                            </div>
                             </br>
                             <a href="http://github.com/ctodmia/tweetwatch" target="_blank"><button class="btn btn-primary">View Github Code</button></a>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
@@ -515,26 +541,31 @@
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
                             <h2>QuickWork</h2>
-                            <p class="item-intro text-muted">A pair-programming app that helps you connect and code with awesome tech mentors through Video Chat, a Live Code Editor, and Direct Messaging</p>
+                            <p class="item-intro text-muted">An homework management system for teachers and students</p>
                             <img class="img-responsive img-centered" src="img/portfolio/quickworkapp.jpg" alt="">
                             
                             <p>
                             <h5>Project Summary</h5>
-                            Learning how to code? Need a Partner? PairedUp is a way to connect with awesome TechMentors. If your looking to learn a particular programming language then PairedUp will match you with fellow coders who can pair program with you.
+                            QuickWork makes it easy for teachers to create new assignments and monitor their students progress. Students have the ability to submit multiple assignments as they get get feedback on their work. 
                             </p>
                             </br>
-                            <table class="container">
-                                <tr>
-                                    <td class="bullet"><strong>Tech Stack</strong></td>
-                                    <td>AngularJS, Node/Express, Socket.io, MongoDB, Passport.js, OAuth2</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td><strong>My Contributions</strong></td>
-                                    <td>I created a frontend architechture to interact with our RESTful API layer.</td>
-                                </tr>
-
-                            </table>
+                            <div class="row">
+                                <div class="col-md-2" text-align="left">
+                                    <strong text-align="left">Tech Stack</strong>
+                                </div>
+                                <div class="col-md-10">
+                                    Angular, MaterializeCSS, Node/Express, MongoDB
+                                </div>
+                            </div>
+                            </br>
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <strong>Contributions</strong>
+                                </div>
+                                <div class="col-md-10">
+                                    One key feature that I implemented was user authorization using Passport.js local strategy and OAuth2 were managed using JSON web tokens.  
+                                </div> 
+                            </div>
                             </br>
                             <a href="http://quickworkapp.herokuapp.com" target="_blank"><button class="btn btn-primary">Visit Website</button></a>
                             <a href="http://github.com/ctodmia/homeworkapp" target="_blank"><button class="btn btn-primary">View Github Code</button></a>
@@ -569,7 +600,7 @@
                             Learning how to code? Need a Partner? PairedUp is a way to connect with awesome TechMentors. If your looking to learn a particular programming language then PairedUp will match you with fellow coders who can pair program with you.
                             </p>
                             </br>
-                            <table class="container">
+                            <table>
                                 <tr>
                                     <td class="bullet"><strong>Tech Stack</strong></td>
                                     <td>AngularJS, Node/Express, Socket.io, MongoDB, Passport.js, OAuth2</td>
@@ -615,7 +646,8 @@
                             Learning how to code? Need a Partner? PairedUp is a way to connect with awesome TechMentors. If your looking to learn a particular programming language then PairedUp will match you with fellow coders who can pair program with you.
                             </p>
                             </br>
-                            <table class="container">
+                            <p>
+                            <table>
                                 <tr>
                                     <td class="bullet"><strong>Tech Stack</strong></td>
                                     <td>AngularJS, Node/Express, Socket.io, MongoDB, Passport.js, OAuth2</td>
@@ -630,6 +662,7 @@
                             </br>
                             <a href="http://castroclone.cinfinitymedia.com/v1/page2.html" target="_blank"><button class="btn btn-primary">Visit Website</button></a>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </p>
                     </div>
                 </div>
             </div>

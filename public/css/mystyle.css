@@ -13,7 +13,7 @@ span.skill {
 	display: inline-block;
 }
 
-ul.skill-set {
+ul {
 	list-style: none;
 }
 li table {

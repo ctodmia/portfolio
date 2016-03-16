@@ -15,6 +15,7 @@ span.skill {
 
 ul {
 	list-style: none;
+	padding: 0px;
 }
 li table {
 	margin: 10px 0px;
@@ -51,6 +52,10 @@ span.progress-bar {
 table.container{
 	text-align: center;
 	width: 700px;
+}
+
+.btn {
+	margin: 10px 0px 10px 0px ;
 }
 /*td {
 	text-align: left;
